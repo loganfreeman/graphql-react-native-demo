@@ -1,0 +1,14 @@
+export default {
+  database: {
+    host: '127.0.0.1',
+    user: 'root',
+    password: '',
+    dbname: 'graphql',
+    port: 3306
+  },
+  jwt: {
+    secret: 'my-secret',
+    expiresIn: 3600,
+    enabled: false
+  }
+}
